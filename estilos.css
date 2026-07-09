@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#e8ece8;
+    
+}
+
+.contenedor{
+    width:1470px;
+ 
+    margin:auto;
+    display:grid;
+    grid-template-columns:200px 1270px;
+    
+    
+    
+}
+ .box{
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            border: 1px solid black;
+            
+            }
+        
+            
+/*=//// HEADER ////*/
+
+.header{
+    grid-column: span 2;
+    background:#7da4de;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+/*//// MENU ////*/
+
+.menu{
+    background:#5e8ad2;
+}
+
+.menu ul{
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+}
+
+.menu li{
+    border-bottom:1px solid rgba(255,255,255,.2);
+    
+}
+
+.menu a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:20px;
+}
+
+.menu a:hover{
+    background:#39548a;
+}
+
+/* ////CONTENIDO ////*/
+
+.contenido{
+    
+    background:#eef0f3;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    
+    
+    
+}
+
+/*///// TARJETAS //////7*/
+
+.caja{
+    width:250px;
+    
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0px 2px 8px rgba(0,0,0,.3);
+     float: left;
+    margin: 10px;
+   
+}
+
+.caja img{
+    width:100%;
+    height:180px;
+}
+
+.efecto:hover{
+    opacity:.8;
+}
+
+.caja h2{
+    color:#2b4582;
+    text-align:center;
+    margin:15px;
+}
+
+.caja p{
+    text-align:justify;
+    padding:0 19px;
+    line-height:25px;
+}
+
+/*================ BOTON =================*/
+
+.boton{
+    margin:20px;
+    padding:12px 30px;
+    background:#28507d;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.boton:hover{
+    background:#6286d0;
+}
+
+/*================ FOOTER =================*/
+
+.footer{
+    grid-column: span 2;
+    background:#1e4771;
+    color:white;
+    text-align:center;
+    line-height:60px;
+    font-size:16px;
+}
